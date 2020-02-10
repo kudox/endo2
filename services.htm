@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0027)https://www.sonomaendo.com/ -->
+<!-- saved from url=(0035)https://www.sonomaendo.com/services -->
 <html class="" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/nr-1123.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <script type="text/javascript" async="" src="./services_files/pinit_main.js"></script><script async="" src="./services_files/analytics.js"></script><script async="" defer="" src="./services_files/8e885b14a5a7b29b2be5215ebc1bb5d4fac69456"></script><script src="./services_files/nr-1123.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 
     
@@ -9,13 +9,13 @@
         <meta name="google-site-verification" content="aIqAQJ_XCN3-EvLhcDXm81l-Lz9Rj8cmpyjEFAWphg0">
     
     
-    <meta name="monitor_key" content="3bec475c55535f07996ddd09db19a4946fe89048">
-            <link rel="canonical" href="https://www.sonomaendo.com/">
+        
+            <link rel="canonical" href="https://www.sonomaendo.com/services">
     
     <link rel="shortcut icon" href="https://sa1s3optim.patientpop.com/assets/images/patientpop/favicon.ico" type="image/x-icon">
     <link rel="icon" href="https://sa1s3optim.patientpop.com/assets/images/patientpop/favicon.ico" type="image/x-icon">
 
-    <title>Tina Vani, DDS, MMSC: Endodontist Petaluma, CA: Sonoma Endodontics</title>
+    <title>Services - Tina Vani, DDS, MMSC: Endodontist Petaluma, CA</title>
     <meta name="description" content="Trusted Endodontist serving Petaluma, CA. Contact us at 707-789-9399 or visit us at 30 W El Rose Dr., Petaluma, CA 94952: Sonoma Endodontics">
 
     <style>/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -5582,11 +5582,11 @@ footer {
     text-align: center;
     color: #446270;
     padding: 20px 0; }
-  /*footer .copy, footer .powered-by {
+  footer .copy, footer .powered-by {
     display: inline-block; }
     footer .copy img, footer .powered-by img {
       height: 14px;
-      width: auto; }*/
+      width: auto; }
   footer ul {
     display: inline-block; }
     footer ul li {
@@ -9476,9 +9476,9 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
 
 </style>
     
-        
+    
     <style>
-                </style>
+          </style>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -9488,14 +9488,823 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
       var startTime = performance.now();
       performance.mark('popTop');
     </script>
-  </head>
+  <style type="text/css"> span.PIN_1562558921765_embed_grid { 
+  width: 100%;
+  max-width: 257px;
+  min-width: 140px;
+  display: inline-block;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: rgb(54, 54, 54);
+  box-sizing: border-box;
+  background: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+ span.PIN_1562558921765_embed_grid * { 
+  display: block;
+  position: relative;
+  font: inherit;
+  cursor: inherit;
+  color: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_hd { 
+  height: 55px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_hd .PIN_1562558921765_img { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background: transparent url () 0 0 no-repeat;
+  background-size: cover;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_hd .PIN_1562558921765_pinner { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  position: absolute;
+  top: 20px;
+  left: 56px;
+  font-size: 14px;
+  font-weight: bold;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_bd { 
+  padding: 0 10px;
+  -moz-scrollbars: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_bd .PIN_1562558921765_ct { 
+  width: 100%;
+  height: auto;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  display: inline-block;
+  width: 100%;
+  padding: 1px;
+  vertical-align: top;
+  min-width: 60px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col .PIN_1562558921765_img { 
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  background: transparent url() 0 0 no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 2px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft { 
+  padding: 11px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button { 
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: inset 0 0 1px #888;
+  background-color: #efefef;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 33px;
+  width: 100%;
+  min-width: 70px;
+  padding: 0 3px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button .PIN_1562558921765_label { 
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button .PIN_1562558921765_label.PIN_1562558921765_top { 
+  top: 0;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button .PIN_1562558921765_label.PIN_1562558921765_bottom { 
+  bottom: 0;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button .PIN_1562558921765_label .PIN_1562558921765_string { 
+  white-space: pre;
+  color: #746d6a;
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button .PIN_1562558921765_label .PIN_1562558921765_logo { 
+  display: inline-block;
+  vertical-align: bottom;
+  height: 32px;
+  width: 80px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCAxMiI+PGc+PHBhdGggZD0iTTE5LjY5LDkuMjggTDE5LjY5LDQuMjggTDIxLjI3LDQuMjggTDIxLjI3LDkuMjggTDE5LjY5LDkuMjggWiBNNS45NywwLjAwIEM5LjI3LDAuMDAgMTEuOTUsMi42OSAxMS45NSw2LjAwIEMxMS45NSw5LjMxIDkuMjcsMTIuMDAgNS45NywxMi4wMCBDNS4zOCwxMi4wMCA0LjgwLDExLjkxIDQuMjYsMTEuNzUgQzQuMjYsMTEuNzUgNC4yNiwxMS43NSA0LjI2LDExLjc1IEM0LjI1LDExLjc1IDQuMjQsMTEuNzQgNC4yMywxMS43NCBMNC4yMSwxMS43MyBDNC4yMSwxMS43MyA0LjIxLDExLjczIDQuMjEsMTEuNzMgQzQuNDUsMTEuMzMgNC44MSwxMC42OCA0Ljk1LDEwLjE2IEM1LjAyLDkuODggNS4zMiw4LjczIDUuMzIsOC43MyBDNS41Miw5LjExIDYuMDgsOS40MiA2LjY5LDkuNDIgQzguNDksOS40MiA5Ljc5LDcuNzYgOS43OSw1LjY5IEM5Ljc5LDMuNzEgOC4xOCwyLjIzIDYuMTEsMi4yMyBDMy41MywyLjIzIDIuMTYsMy45NiAyLjE2LDUuODYgQzIuMTYsNi43NCAyLjYzLDcuODMgMy4zNyw4LjE4IEMzLjQ5LDguMjMgMy41NSw4LjIxIDMuNTcsOC4xMCBDMy41OSw4LjAyIDMuNjksNy42MSAzLjc0LDcuNDIgQzMuNzUsNy4zNiAzLjc1LDcuMzEgMy43MCw3LjI1IEMzLjQ1LDYuOTUgMy4yNSw2LjM5IDMuMjUsNS44OCBDMy4yNSw0LjU1IDQuMjUsMy4yNyA1Ljk1LDMuMjcgQzcuNDIsMy4yNyA4LjQ1LDQuMjggOC40NSw1LjcxIEM4LjQ1LDcuMzQgNy42Myw4LjQ2IDYuNTcsOC40NiBDNS45OCw4LjQ2IDUuNTQsNy45OCA1LjY4LDcuMzggQzUuODUsNi42NyA2LjE4LDUuOTAgNi4xOCw1LjM4IEM2LjE4LDQuOTIgNS45Myw0LjU0IDUuNDIsNC41NCBDNC44Miw0LjU0IDQuMzQsNS4xNiA0LjM0LDUuOTkgQzQuMzQsNi41MiA0LjUyLDYuODggNC41Miw2Ljg4IEM0LjUyLDYuODggMy45Myw5LjQwIDMuODIsOS44NyBDMy43MCwxMC4zOCAzLjc1LDExLjExIDMuODAsMTEuNTkgTDMuODAsMTEuNTkgQzMuNzksMTEuNTkgMy43OCwxMS41OCAzLjc4LDExLjU4IEMzLjc3LDExLjU4IDMuNzYsMTEuNTggMy43NiwxMS41NyBDMy43NiwxMS41NyAzLjc2LDExLjU3IDMuNzYsMTEuNTcgQzEuNTYsMTAuNjkgMC4wMCw4LjUzIDAuMDAsNi4wMCBDMC4wMCwyLjY5IDIuNjcsMC4wMCA1Ljk3LDAuMDAgWiBNMTYuODcsMi4zMSBDMTcuNzEsMi4zMSAxOC4zNCwyLjU0IDE4Ljc2LDIuOTUgQzE5LjIxLDMuMzcgMTkuNDYsMy45NiAxOS40Niw0LjY2IEMxOS40Niw2LjAwIDE4LjU0LDYuOTUgMTcuMTEsNi45NSBMMTUuNzIsNi45NSBMMTUuNzIsOS4yOCBMMTQuMTIsOS4yOCBMMTQuMTIsMi4zMSBMMTYuODcsMi4zMSBaIE0xNi45NCw1LjU4IEMxNy41Niw1LjU4IDE3LjkxLDUuMjEgMTcuOTEsNC42NSBDMTcuOTEsNC4xMCAxNy41NSwzLjc2IDE2Ljk0LDMuNzYgTDE1LjcyLDMuNzYgTDE1LjcyLDUuNTggTDE2Ljk0LDUuNTggWiBNNTAuMDAsNS4yOCBMNDkuMTksNS4yOCBMNDkuMTksNy42MiBDNDkuMTksOC4wMSA0OS40MCw4LjExIDQ5Ljc0LDguMTEgQzQ5LjgzLDguMTEgNDkuOTMsOC4xMCA1MC4wMCw4LjEwIEw1MC4wMCw5LjI4IEM0OS44NCw5LjMxIDQ5LjU4LDkuMzMgNDkuMjIsOS4zMyBDNDguMzAsOS4zMyA0Ny42NCw5LjAzIDQ3LjY0LDcuOTYgTDQ3LjY0LDUuMjggTDQ3LjE2LDUuMjggTDQ3LjE2LDQuMjggTDQ3LjY0LDQuMjggTDQ3LjY0LDIuNzAgTDQ5LjE5LDIuNzAgTDQ5LjE5LDQuMjggTDUwLjAwLDQuMjggTDUwLjAwLDUuMjggWiBNNDUuMzEsNi4xMyBDNDYuMTgsNi4yNyA0Ny4yMSw2LjUwIDQ3LjIxLDcuNzcgQzQ3LjIxLDguODcgNDYuMjUsOS40MyA0NC45NSw5LjQzIEM0My41NSw5LjQzIDQyLjY1LDguODEgNDIuNTQsNy43OCBMNDQuMDUsNy43OCBDNDQuMTUsOC4yMCA0NC40Niw4LjQwIDQ0Ljk0LDguNDAgQzQ1LjQyLDguNDAgNDUuNzIsOC4yMiA0NS43Miw3LjkwIEM0NS43Miw3LjQ1IDQ1LjEyLDcuNDAgNDQuNDYsNy4yOSBDNDMuNTksNy4xNCA0Mi42Nyw2LjkxIDQyLjY3LDUuNzQgQzQyLjY3LDQuNjggNDMuNjQsNC4xNCA0NC44Miw0LjE0IEM0Ni4yMiw0LjE0IDQ2Ljk4LDQuNzUgNDcuMDYsNS43NCBMNDUuNjAsNS43NCBDNDUuNTQsNS4yOSA0NS4yNCw1LjE1IDQ0LjgwLDUuMTUgQzQ0LjQyLDUuMTUgNDQuMTIsNS4zMCA0NC4xMiw1LjYxIEM0NC4xMiw1Ljk2IDQ0LjY4LDYuMDEgNDUuMzEsNi4xMyBaIE0yMC40OCwyLjAwIEMyMS4wMCwyLjAwIDIxLjQzLDIuNDIgMjEuNDMsMi45NSBDMjEuNDMsMy40OCAyMS4wMCwzLjkwIDIwLjQ4LDMuOTAgQzE5Ljk1LDMuOTAgMTkuNTMsMy40OCAxOS41MywyLjk1IEMxOS41MywyLjQyIDE5Ljk1LDIuMDAgMjAuNDgsMi4wMCBaIE0yOC40OCw3LjYyIEMyOC40OCw4LjAxIDI4LjcwLDguMTEgMjkuMDQsOC4xMSBDMjkuMTAsOC4xMSAyOS4xOCw4LjEwIDI5LjI0LDguMTAgTDI5LjI0LDkuMjkgQzI5LjA4LDkuMzEgMjguODMsOS4zMyAyOC41Miw5LjMzIEMyNy42MCw5LjMzIDI2Ljk0LDkuMDMgMjYuOTQsNy45NiBMMjYuOTQsNS4yOCBMMjYuNDIsNS4yOCBMMjYuNDIsNC4yOCBMMjYuOTQsNC4yOCBMMjYuOTQsMi43MCBMMjguNDgsMi43MCBMMjguNDgsNC4yOCBMMjkuMjQsNC4yOCBMMjkuMjQsNS4yOCBMMjguNDgsNS4yOCBMMjguNDgsNy42MiBaIE0yNC42OSw0LjE0IEMyNS43Nyw0LjE0IDI2LjQxLDQuOTIgMjYuNDEsNi4wMyBMMjYuNDEsOS4yOCBMMjQuODMsOS4yOCBMMjQuODMsNi4zNSBDMjQuODMsNS44MiAyNC41Nyw1LjQ2IDI0LjA1LDUuNDYgQzIzLjUzLDUuNDYgMjMuMTgsNS45MCAyMy4xOCw2LjUyIEwyMy4xOCw5LjI4IEwyMS42MCw5LjI4IEwyMS42MCw0LjI4IEwyMy4xMiw0LjI4IEwyMy4xMiw0Ljk3IEwyMy4xNSw0Ljk3IEMyMy41Miw0LjQzIDI0LjAwLDQuMTQgMjQuNjksNC4xNCBaIE0zMy40Miw0Ljc2IEMzMi45OSw0LjM3IDMyLjQzLDQuMTQgMzEuNzIsNC4xNCBDMzAuMjAsNC4xNCAyOS4xNiw1LjI4IDI5LjE2LDYuNzcgQzI5LjE2LDguMjggMzAuMTcsOS40MiAzMS44MSw5LjQyIEMzMi40NCw5LjQyIDMyLjk1LDkuMjYgMzMuMzcsOC45NiBDMzMuODAsOC42NiAzNC4xMCw4LjIzIDM0LjIwLDcuNzggTDMyLjY2LDcuNzggQzMyLjUyLDguMTAgMzIuMjUsOC4yOCAzMS44Myw4LjI4IEMzMS4xOCw4LjI4IDMwLjgxLDcuODYgMzAuNzIsNy4xOSBMMzQuMjksNy4xOSBDMzQuMzAsNi4xOCAzNC4wMSw1LjMxIDMzLjQyLDQuNzYgTDMzLjQyLDQuNzYgWiBNNDEuNjYsNC43NiBDNDIuMjYsNS4zMSA0Mi41NSw2LjE4IDQyLjU0LDcuMTkgTDM4Ljk3LDcuMTkgQzM5LjA2LDcuODYgMzkuNDMsOC4yOCA0MC4wOCw4LjI4IEM0MC41MCw4LjI4IDQwLjc3LDguMTAgNDAuOTEsNy43OCBMNDIuNDUsNy43OCBDNDIuMzQsOC4yMyA0Mi4wNSw4LjY2IDQxLjYyLDguOTYgQzQxLjIwLDkuMjYgNDAuNjksOS40MiA0MC4wNiw5LjQyIEMzOC40Miw5LjQyIDM3LjQxLDguMjggMzcuNDEsNi43NyBDMzcuNDEsNS4yOCAzOC40NSw0LjE0IDM5Ljk3LDQuMTQgQzQwLjY3LDQuMTQgNDEuMjQsNC4zNyA0MS42Niw0Ljc2IFogTTMwLjczLDYuMjQgQzMwLjgzLDUuNjUgMzEuMTQsNS4yNyAzMS43NSw1LjI3IEMzMi4yNiw1LjI3IDMyLjYzLDUuNjUgMzIuNjksNi4yNCBMMzAuNzMsNi4yNCBaIE0zOC45OCw2LjI0IEw0MC45NCw2LjI0IEM0MC44OCw1LjY1IDQwLjUxLDUuMjcgNDAuMDAsNS4yNyBDMzkuMzksNS4yNyAzOS4wOCw1LjY1IDM4Ljk4LDYuMjQgWiBNMzcuNTQsNC4yMSBMMzcuNTQsNS42MCBDMzYuNjQsNS41MSAzNi4wNyw1Ljk5IDM2LjA3LDcuMDMgTDM2LjA3LDkuMjggTDM0LjQ4LDkuMjggTDM0LjQ4LDQuMjggTDM2LjAwLDQuMjggTDM2LjAwLDUuMDYgTDM2LjAzLDUuMDYgQzM2LjM4LDQuNDcgMzYuNzgsNC4yMSAzNy4zOSw0LjIxIEMzNy40NSw0LjIxIDM3LjUwLDQuMjEgMzcuNTQsNC4yMSBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size: contain;
+}
+ span.PIN_1562558921765_embed_grid .PIN_1562558921765_ft .PIN_1562558921765_button:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_noscroll .PIN_1562558921765_bd { 
+  overflow: hidden;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_board .PIN_1562558921765_hd .PIN_1562558921765_pinner { 
+  top: 10px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_board .PIN_1562558921765_hd .PIN_1562558921765_board { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  position: absolute;
+  bottom: 10px;
+  left: 56px;
+  color: #363636;
+  font-size: 12px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c2 { 
+  max-width: 494px;
+  min-width: 140px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c2 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 50%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c3 { 
+  max-width: 731px;
+  min-width: 200px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c3 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 33.33%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c4 { 
+  max-width: 968px;
+  min-width: 260px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c4 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 25%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c5 { 
+  max-width: 1205px;
+  min-width: 320px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c5 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 20%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c6 { 
+  max-width: 1442px;
+  min-width: 380px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c6 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 16.66%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c7 { 
+  max-width: 1679px;
+  min-width: 440px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c7 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 14.28%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c8 { 
+  max-width: 1916px;
+  min-width: 500px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c8 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 12.5%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c9 { 
+  max-width: 2153px;
+  min-width: 560px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c9 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 11.11%;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c10 { 
+  max-width: 2390px;
+  min-width: 620px;
+}
+ span.PIN_1562558921765_embed_grid.PIN_1562558921765_c10 .PIN_1562558921765_bd .PIN_1562558921765_ct .PIN_1562558921765_col { 
+  width: 10%;
+}
+ span.PIN_1562558921765_embed_pin { 
+  width: 100%;
+  min-width: 160px;
+  max-width: 236px;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #363636;
+  background: #fff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+ span.PIN_1562558921765_embed_pin * { 
+  display: block;
+  position: relative;
+  font: inherit;
+  cursor: inherit;
+  color: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd { 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd { 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container { 
+  width: 100%;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_img,  span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_iframe,  span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_video { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: transparent url() 0 0 no-repeat;
+  background-size: cover;
+  border: none;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_native { 
+  height: 64px;
+  width: 64px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNjNweCIgd2lkdGg9IjYzcHgiIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGc+PHBhdGggZD0iTSAzMiAzMiBtIC0zMiwgMCBhIDMxLCAzMSAwIDEsIDAgNjMsIDAgYSAzMSwgMzEgMCAxLDAgLTYzLCAwIHoiIGZpbGw9IiMwMDAiPjwvcGF0aD48cGF0aCBkPSJNIDI1IDE5IEwgNDggMzIgIEwgMjUgNDUgWiIgZmlsbD0iI2ZmZiI+PC9wYXRoPjwvZz48L3N2Zz4=) 0 0 no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -32px;
+  margin-left: -32px;
+  opacity: .75;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_control { 
+  width: 50px;
+  height: 24px;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(0, 0, 0, .4);
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+  border: 2px solid rgba(255, 255, 255, .68);
+  border-radius: 13px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_control.PIN_1562558921765_paused::after,  span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_control.PIN_1562558921765_playing::after { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  line-height: 19px;
+  white-space: pre;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_control.PIN_1562558921765_paused::after { 
+  content: "▶ GIF";
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_control.PIN_1562558921765_playing::after { 
+  content: "❙ ❙ GIF";
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_repin { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 28px;
+  width: auto;
+  color: #fff;
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 5px 50% no-repeat;
+  background-size: 18px 18px;
+  text-indent: 28px;
+  font: 14px/28px "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0 6px 0 0;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_repin:hover { 
+  background-color: #e60023;
+  box-shadow: none;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source { 
+  height: 38px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_img { 
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: 10px;
+  height: 16px;
+  width: 16px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 16px 16px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_domain { 
+  line-height: 38px;
+  max-width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #b9b9b9;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source.PIN_1562558921765_nofav .PIN_1562558921765_img { 
+  display: none;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source.PIN_1562558921765_nofav .PIN_1562558921765_domain { 
+  max-width: 85%;
+  left: 10px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_menu { 
+  height: inherit;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_menu .PIN_1562558921765_toggle { 
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: inherit;
+  width: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNXB4IiB3aWR0aD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDUiPjxnPjxwYXRoIGQ9Ik0xNy41LDUgQzE4Ljg4MSw1IDIwLDMuODgxIDIwLDIuNSBDMjAsMS4xMTkgMTguODgxLDAgMTcuNSwwIEMxNi4xMTksMCAxNSwxLjExOSAxNSwyLjUgQzE1LDMuODgxIDE2LjExOSw1IDE3LjUsNSBaIE0xMCw1IEMxMS4zOCw1IDEyLjUsMy44ODEgMTIuNSwyLjUgQzEyLjUsMS4xMTkgMTEuMzgsMCAxMCwwIEM4LjYyLDAgNy41LDEuMTE5IDcuNSwyLjUgQzcuNSwzLjg4MSA4LjYyLDUgMTAsNSBNMi41LDUgQzMuODgxLDUgNSwzLjg4MSA1LDIuNSBDNSwxLjExOSAzLjg4MSwwIDIuNSwwIEMxLjEyLDAgMCwxLjExOSAwLDIuNSBDMCwzLjg4MSAxLjEyIDUsMi41LDUgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
+  background-size: fill;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_menu .PIN_1562558921765_dropdown { 
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
+  font-weight: bold;
+  font-size: 12px;
+  background: #fff;
+  text-align: left;
+  padding: 10px;
+  position: absolute;
+  max-width: 195px;
+  right: 10px;
+  top: 39px;
+  z-index: 1;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_menu .PIN_1562558921765_dropdown::after { 
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 1px;
+  border-bottom: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_menu .PIN_1562558921765_dropdown::before { 
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: 2px;
+  border-bottom: 7px solid #e2e2e2;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_description { 
+  font-size: 14px;
+  line-height: 17px;
+  margin: 8px 12px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_attribution { 
+  height: 22px;
+  margin-top: 5px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_attribution .PIN_1562558921765_img { 
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: 10px;
+  height: 16px;
+  width: 16px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 16px 16px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_attribution .PIN_1562558921765_by { 
+  line-height: 22px;
+  max-width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  font-weight: bold;
+  color: #b9b9b9;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_stats { 
+  height: 24px;
+  line-height: 24px;
+  margin: 0 0 0 10px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_stats .PIN_1562558921765_repins { 
+  padding-left: 17px;
+  padding-right: 10px;
+  color: #a8a8a8;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTRweCIgd2lkdGg9IjE0cHgiIHZpZXdCb3g9IjAgMCAxNCAxNCI+PGc+PHBhdGggZD0iTTExLjk3OSw2Ljg1OSBMMTMuOTksNS4wMTEgTDExLjI0MSw1LjAxMSBMMTAuNDg2LDAgTDkuNzM5LDUuMDExIEw3LDUuMDExIEw4Ljk4Niw2Ljg1OCBMOC45ODYsMTEuMDE3IEM4LjUwNSwxMC45ODUgOC4xNDMsMTEuMDEyIDguMTQzLDExLjIxMyBDOC4xNDMsMTEuNjg3IDguNTAzLDEyLjAwMSA4Ljk4NiwxMi4wMDEgTDExLjk4MiwxMiBDMTIuNDY1LDEyIDEyLjg4OCwxMS42ODYgMTIuODg4LDExLjIxMyBDMTIuODg4LDExLjAxMSAxMi40NjUsMTAuOTg1IDExLjk4MiwxMS4wMTcgTDExLjk3OSw2Ljg1OSBaIE00Ljk3OSw3LjE0MiBMNi45OSw4Ljk5IEw0LjI0MSw4Ljk5IEwzLjQ4NiwxNC4wMDEgTDIuNzM5LDguOTkgTDAsOC45OSBMMS45ODYsNy4xNDMgTDEuOTg2LDIuOTg0IEMxLjUwNSwzLjAxNiAxLjE0MywyLjk4OSAxLjE0MywyLjc4OCBDMS4xNDMsMi4zMTUgMS41MDMsMiAxLjk4NiwyIEw0Ljk4MiwyLjAwMSBDNS40NjUsMi4wMDEgNS44ODgsMi4zMTUgNS44ODgsMi43ODkgQzUuODg4LDIuOTkgNS40NjUsMy4wMTcgNC45ODIsMi45ODQgTDQuOTc5LDcuMTQyIFoiIGZpbGw9IiNiNWI1YjUiPjwvcGF0aD48L2c+PC9zdmc+) 0 50% no-repeat;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_bd .PIN_1562558921765_stats .PIN_1562558921765_done { 
+  padding-left: 15px;
+  padding-right: 10px;
+  color: #a8a8a8;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjEycHgiIHZpZXdCb3g9IjAgMCAxMiAxMiI+PGc+PHBhdGggZD0iTTAsNiBMMiw0IEw1LDcgTDEwLDEgTDEyLDMgTDUsMTEgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=) 0 50% no-repeat;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft { 
+  height: 50px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft:after { 
+  content: '-------------------------------------------------------------------------------------';
+  display: block;
+  height: 1px;
+  line-height: 1px;
+  color: #fff;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft .PIN_1562558921765_img { 
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background: transparent url() 0 0 no-repeat;
+  background-size: 30px 30px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft .PIN_1562558921765_pinner,  span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft  .PIN_1562558921765_board { 
+  position: absolute;
+  left: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft .PIN_1562558921765_pinner { 
+  font-weight: bold;
+  top: 10px;
+}
+ span.PIN_1562558921765_embed_pin .PIN_1562558921765_ft .PIN_1562558921765_board { 
+  bottom: 10px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_ja .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_repin { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_ja .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_repin.PIN_1562558921765_save { 
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 5px 50% no-repeat;
+  background-size: 16px 16px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_medium { 
+  min-width: 237px;
+  max-width: 345px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large { 
+  min-width: 345px;
+  max-width: 600px;
+  padding: 30px 34px 10px;
+  font-size: 14px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd { 
+  border-bottom: none;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_hd { 
+  padding-top: 50px;
+  border-bottom: none;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_img,  span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_container .PIN_1562558921765_video { 
+  border-radius: 8px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_hd .PIN_1562558921765_repin { 
+  top: 0px;
+  left: 0px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_source { 
+  height: 50px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_source .PIN_1562558921765_domain { 
+  line-height: 50px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_stats { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_description { 
+  font-size: 16px;
+  line-height: 20px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_menu { 
+  height: inherit;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_bd .PIN_1562558921765_menu .PIN_1562558921765_dropdown { 
+  top: 50px;
+  font-size: 14px;
+  padding: 10px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_ft { 
+  height: 60px;
+  font-size: 16px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_ft .PIN_1562558921765_board,  span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_ft .PIN_1562558921765_pinner { 
+  left: 60px;
+}
+ span.PIN_1562558921765_embed_pin.PIN_1562558921765_large .PIN_1562558921765_ft .PIN_1562558921765_img { 
+  height: 40px;
+  width: 40px;
+  background-size: 40px 40px;
+  border-radius: 20px;
+}
+ .PIN_1562558921765_button_follow { 
+  display: inline-block;
+  color: #363636;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #888;
+  border-radius: 3px;
+  font: bold 11px/20px "Helvetica Neue", Helvetica, arial, sans-serif !important;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  padding: 0 4px 0 20px;
+  background-color: #efefef;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+ .PIN_1562558921765_button_follow:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ .PIN_1562558921765_button_follow::after { 
+  content: "";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  top: 3px;
+  left: 3px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 14px 14px;
+}
+ .PIN_1562558921765_button_follow.PIN_1562558921765_tall { 
+  height: 26px;
+  line-height: 26px;
+  font-size: 13px;
+  padding: 0 6px 0 25px;
+  border-radius: 3px;
+}
+ .PIN_1562558921765_button_follow.PIN_1562558921765_tall::after { 
+  height: 18px;
+  width: 18px;
+  top: 4px;
+  left: 4px;
+  background-size: 18px 18px;
+}
+ .PIN_1562558921765_button_pin { 
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 1px #888;
+  border-radius: 3px;
+  height: 20px;
+  width: 40px;
+  -webkit-font-smoothing: antialiased;
+  background: #efefef url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size: 75%;
+  position: relative;
+  font: 12px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #555;
+  text-align: center;
+  vertical-align: baseline;
+}
+ .PIN_1562558921765_button_pin:hover { 
+  box-shadow: inset 0 0 1px #000;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_above .PIN_1562558921765_count { 
+  position: absolute;
+  top: -28px;
+  left: 0;
+  height: 28px;
+  width: inherit;
+  line-height: 24px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 40px 28px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_above.PIN_1562558921765_padded { 
+  margin-top: 28px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_beside .PIN_1562558921765_count { 
+  position: absolute;
+  right: -45px;
+  text-align: center;
+  text-indent: 5px;
+  height: inherit;
+  width: 45px;
+  font-size: 11px;
+  line-height: 20px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_beside.PIN_1562558921765_padded { 
+  margin-right: 45px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_ja { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNlNjAwMjMiPjwvcGF0aD48L2c+PC9zdmc+);
+  background-size: 72%;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_red { 
+  background-color: #e60023;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZmZmIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_red.PIN_1562558921765_ja { 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_white { 
+  background-color: #fff;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save { 
+  border-radius: 2px;
+  text-indent: 20px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font: 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff!important;
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 3px 50% no-repeat;
+  background-size: 14px 14px;
+  -webkit-font-smoothing: antialiased;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save:hover { 
+  background-color: #e60023;
+  box-shadow: none;
+  color: #fff!important;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save .PIN_1562558921765_count { 
+  text-indent: 0;
+  position: absolute;
+  color: #555;
+  background: #efefef;
+  border-radius: 2px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save .PIN_1562558921765_count::before { 
+  content: "";
+  position: absolute;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save.PIN_1562558921765_beside .PIN_1562558921765_count { 
+  right: -46px;
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+  line-height: 20px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save.PIN_1562558921765_beside .PIN_1562558921765_count::before { 
+  top: 3px;
+  left: -4px;
+  border-right: 7px solid #efefef;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save.PIN_1562558921765_above .PIN_1562558921765_count { 
+  top: -36px;
+  width: 100%;
+  height: 30px;
+  font-size: 10px;
+  line-height: 30px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save.PIN_1562558921765_above .PIN_1562558921765_count::before { 
+  bottom: -4px;
+  left: 4px;
+  border-top: 7px solid #efefef;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_save.PIN_1562558921765_above.PIN_1562558921765_padded { 
+  margin-top: 28px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall { 
+  height: 28px;
+  width: 56px;
+  border-radius: 3px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_above .PIN_1562558921765_count { 
+  position: absolute;
+  height: 37px;
+  width: inherit;
+  top: -37px;
+  left: 0;
+  line-height: 30px;
+  font-size: 14px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_above.PIN_1562558921765_padded { 
+  margin-top: 37px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_beside .PIN_1562558921765_count { 
+  text-indent: 5px;
+  position: absolute;
+  right: -63px;
+  height: inherit;
+  width: 63px;
+  font-size: 14px;
+  line-height: 28px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);
+  background-size: cover;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_beside.PIN_1562558921765_padded { 
+  margin-right: 63px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save { 
+  border-radius: 4px;
+  width: auto;
+  background-position-x: 6px;
+  background-size: 18px 18px;
+  text-indent: 29px;
+  font: 14px/28px "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  padding: 0 6px 0 0;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save .PIN_1562558921765_count { 
+  position: absolute;
+  color: #555;
+  font-size: 12px;
+  text-indent: 0;
+  background: #efefef;
+  border-radius: 4px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save .PIN_1562558921765_count::before { 
+  content: "";
+  position: absolute;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save.PIN_1562558921765_above .PIN_1562558921765_count { 
+  font-size: 14px;
+  top: -50px;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save.PIN_1562558921765_above .PIN_1562558921765_count::before { 
+  bottom: -4px;
+  left: 7px;
+  border-top: 7px solid #efefef;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save.PIN_1562558921765_beside .PIN_1562558921765_count { 
+  font-size: 14px;
+  right: -63px;
+  width: 56px;
+  height: 28px;
+  line-height: 28px;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_tall.PIN_1562558921765_save.PIN_1562558921765_beside .PIN_1562558921765_count::before { 
+  top: 7px;
+  left: -4px;
+  border-right: 7px solid #efefef;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_round { 
+  height: 16px;
+  width: 16px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==) 0 0 no-repeat;
+  background-size: 16px 16px;
+  box-shadow: none;
+}
+ .PIN_1562558921765_button_pin.PIN_1562558921765_round.PIN_1562558921765_tall { 
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
+}
+</style></head>
     <body class="ATOMIC">
               
 
     
-    
-  
-      <header class="header header-1  ">
+                <header class="header header-1  ">
 
   <div class="wrap a-backgroundcolor3">
     <div class="nav-header a-maxwidth1290px">
@@ -9510,7 +10319,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
 
       <div class="brand">      
                   <a href="https://www.sonomaendo.com/" class="logo">
-                          <img class="a-height104px a-margintopmarginbottom0px a-marginleft10px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
+                          <img class="a-height104px a-margintopmarginbottom0px a-marginleft10px" src="./services_files/1798702.png">
                       </a>
         
         <button class="nav-toggle" data-target="nav-list">
@@ -9533,7 +10342,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
         </a>
       </li>
                   <li class="a-backgroundcolor0">
-        <a id="about" href="./about.htm" class="clickable" target="_self">
+        <a id="about" href="https://www.sonomaendo.com/about" class="clickable" target="_self">
           <span class=" a-color3">Meet Dr. Vani</span>
         </a>
       </li>
@@ -9611,500 +10420,34 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
 </header>
 
 
-      <section class="hero hero-2 carousel a-minheight86vh a-backgroundcolor3" data-transition-type="fade-over" data-transition-speed-factor="1.8" data-transition-delay="4">
-  <ul class="carousel-items">
-
-          <li class="clearfix carousel-item slide slide-1 carousel-item-0 a-backgroundcolor3
-  a-minheight86vh
-  focal-point-CC" data-src="https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1774604.png" style="background-image: url(&#39;https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1774604.png&#39;);">
-
-  <div class="margin-wrapper a-bordertopwidth0px a-borderbottomwidth0px">
-
-    <div class="hero-cloak reveal-element       a-borderradius0px 
-                a-backgroundcolor2    a-opacity01 
-                a-left0pct     a-width100pct">
-    </div>
-
-    <div class="hero-content reveal-element
-                a-minheight86vh
-                a-marginleft0pct             a-width100pct
-                a-paddingtop5pct     a-paddingright5pct
-                a-paddingbottom20pct  a-paddingleft5pct">
-
-      <div class="hero-content-inner  a-textaligncenter ">
-
-                  <div class="logo-container reveal-element">
-            <a href="https://www.sonomaendo.com/" class="logo a-bordercolor4    a-backgroundcolor4 
-                      a-opacity1              a-borderwidth1px   
-                      a-borderradius10pct ">
-                              <img class="a-height200px a-margin11px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
-                          </a>
-          </div>
-        
-                              <h3 class="subtitle reveal-element
-                        primary-font 
-                                              a-textaligncenter 
-                       a-color3 ">Sonoma Endodontics</h3>
-                    <h1 class="title reveal-element
-                      primary-font 
-                                          a-textaligncenter  a-color3 
-                     a-texttransformnone        a-textshadownone 
-                     a-lineheight110pct     a-letterspacing3px
-                     a-fontsize51px ">Dr. Tina Vani</h1>
-          <h2 class="subtitle reveal-element
-                      secondary-font 
-                                          a-fontsize41px            a-textaligncenter 
-                     a-color3    a-texttransformnone 
-                     a-textshadownone   a-lineheight110pct 
-                     a-letterspacing0px ">Endodontist located in Petaluma, CA</h2>
-                          <div class="cta-buttons a-textaligncenter">
-            <div class="cta-buttons-aligner">
-                                                <a href="tel:7077899399" class="reveal-element hero-cta cta-call-us 
-                                                         a-margin4px
-                             a-fontsize12px
-                             a-width164px
-                             a-height46px
-                             a-borderradius3px
-                             a-backgroundcolor0
-                             a-color3
-                             a-bordercolor0
-                             a-texttransformuppercase">
-                    <span class="mm-phone-number">707-789-9399</span>
-                  </a>
-                                                                      </div>
-          </div>
+                <section class="herosub herosub-1 a-backgroundcolor0">
+    <div class="hero ">
+    <div id="hero-cloak" class="cloak a-backgroundcolor2
+                a-opacity2"></div>
+    <div id="hero-titles" class="hero-titles a-maxwidth940px
+                a-paddingtop60px
+                a-paddingbottom60px">
+      <div id="hero-titles-inner" class="hero-titles-inner">
+        <h1 class="main-text 
+                    primary-font                              text-shadow                    a-fontsize26px
+                   a-textaligncenter
+                   a-color3" id="sub-primary-title">About Services</h1>
               </div>
     </div>
   </div>
-</li>
-          <li class="clearfix carousel-item slide slide-1 carousel-item-1 a-backgroundcolor3
-  a-minheight86vh
-  focal-point-CC" data-src="https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1774610.png">
-
-  <div class="margin-wrapper a-bordertopwidth0px a-borderbottomwidth0px">
-
-    <div class="hero-cloak reveal-element       a-borderradius0px 
-                a-backgroundcolor2    a-opacity03 
-                a-left0pct     a-width100pct">
-    </div>
-
-    <div class="hero-content reveal-element
-                a-minheight86vh
-                a-marginleft0pct             a-width100pct
-                a-paddingtop5pct     a-paddingright5pct
-                a-paddingbottom20pct  a-paddingleft5pct">
-
-      <div class="hero-content-inner  a-textaligncenter ">
-
-                  <div class="logo-container reveal-element">
-            <a href="https://www.sonomaendo.com/" class="logo a-bordercolor4    a-backgroundcolor4 
-                      a-opacity1              a-borderwidth1px   
-                      a-borderradius10pct ">
-                              <img class="a-height200px a-margin10px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
-                          </a>
-          </div>
-        
-                              <h3 class="subtitle reveal-element
-                        primary-font 
-                                              a-textaligncenter 
-                       a-color3 ">Sonoma Endodontics</h3>
-                    <h1 class="title reveal-element
-                      primary-font 
-                                          a-textaligncenter  a-color3 
-                     a-texttransformnone        a-textshadownone 
-                     a-lineheight110pct     a-letterspacing0px
-                     a-fontsize50px ">Dr. Tina Vani</h1>
-          <h2 class="subtitle reveal-element
-                      secondary-font 
-                                          a-fontsize21px            a-textaligncenter 
-                     a-color3    a-texttransformnone 
-                     a-textshadownone   a-lineheight110pct 
-                     a-letterspacing0px ">Endodontist located in Petaluma, CA</h2>
-                          <div class="cta-buttons a-textaligncenter">
-            <div class="cta-buttons-aligner">
-                                                <a href="tel:7077899399" class="reveal-element hero-cta cta-call-us 
-                                                         a-margin4px
-                             a-fontsize12px
-                             a-width164px
-                             a-height46px
-                             a-borderradius3px
-                             a-backgroundcolor0
-                             a-color3
-                             a-bordercolor0
-                             a-texttransformuppercase">
-                    <span class="mm-phone-number">707-789-9399</span>
-                  </a>
-                                                                      </div>
-          </div>
-              </div>
-    </div>
-  </div>
-</li>
-          <li class="clearfix carousel-item slide slide-1 carousel-item-2 a-backgroundcolor3
-  a-minheight86vh
-  focal-point-CC" data-src="https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1774606.png">
-
-  <div class="margin-wrapper a-bordertopwidth0px a-borderbottomwidth0px">
-
-    <div class="hero-cloak reveal-element       a-borderradius0px 
-                a-backgroundcolor2    a-opacity01 
-                a-left0pct     a-width100pct">
-    </div>
-
-    <div class="hero-content reveal-element
-                a-minheight86vh
-                a-marginleft0pct             a-width100pct
-                a-paddingtop5pct     a-paddingright5pct
-                a-paddingbottom20pct  a-paddingleft5pct">
-
-      <div class="hero-content-inner  a-textaligncenter ">
-
-                  <div class="logo-container reveal-element">
-            <a href="https://www.sonomaendo.com/" class="logo a-bordercolor4    a-backgroundcolor4 
-                      a-opacity1              a-borderwidth1px   
-                      a-borderradius10pct ">
-                              <img class="a-height200px a-margin10px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
-                          </a>
-          </div>
-        
-                              <h3 class="subtitle reveal-element
-                        primary-font 
-                                              a-textaligncenter 
-                       a-color3 ">Sonoma Endodontics</h3>
-                    <h1 class="title reveal-element
-                      primary-font 
-                                          a-textaligncenter  a-color3 
-                     a-texttransformnone        a-textshadownone 
-                     a-lineheight110pct     a-letterspacing0px
-                     a-fontsize50px ">Dr. Tina Vani</h1>
-          <h2 class="subtitle reveal-element
-                      secondary-font 
-                                          a-fontsize21px            a-textaligncenter 
-                     a-color3    a-texttransformnone 
-                     a-textshadownone   a-lineheight110pct 
-                     a-letterspacing0px ">Endodontist located in Petaluma, CA</h2>
-                          <div class="cta-buttons a-textaligncenter">
-            <div class="cta-buttons-aligner">
-                                                <a href="tel:7077899399" class="reveal-element hero-cta cta-call-us 
-                                                         a-margin4px
-                             a-fontsize12px
-                             a-width164px
-                             a-height46px
-                             a-borderradius3px
-                             a-backgroundcolor0
-                             a-color3
-                             a-bordercolor0
-                             a-texttransformuppercase">
-                    <span class="mm-phone-number">707-789-9399</span>
-                  </a>
-                                                                      </div>
-          </div>
-              </div>
-    </div>
-  </div>
-</li>
-          <li class="clearfix carousel-item slide slide-1 carousel-item-3 a-backgroundcolor3
-  a-minheight86vh
-  focal-point-CC" data-src="https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1774624.png">
-
-  <div class="margin-wrapper a-bordertopwidth0px a-borderbottomwidth0px">
-
-    <div class="hero-cloak reveal-element       a-borderradius0px 
-                a-backgroundcolor2    a-opacity03 
-                a-left0pct     a-width100pct">
-    </div>
-
-    <div class="hero-content reveal-element
-                a-minheight86vh
-                a-marginleft0pct             a-width100pct
-                a-paddingtop5pct     a-paddingright5pct
-                a-paddingbottom20pct  a-paddingleft5pct">
-
-      <div class="hero-content-inner  a-textaligncenter ">
-
-                  <div class="logo-container reveal-element">
-            <a href="https://www.sonomaendo.com/" class="logo a-bordercolor4    a-backgroundcolor4 
-                      a-opacity1              a-borderwidth1px   
-                      a-borderradius10pct ">
-                              <img class="a-height200px a-margin10px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
-                          </a>
-          </div>
-        
-                              <h3 class="subtitle reveal-element
-                        primary-font 
-                                              a-textaligncenter 
-                       a-color3 ">Sonoma Endodontics</h3>
-                    <h1 class="title reveal-element
-                      primary-font 
-                                          a-textaligncenter  a-color3 
-                     a-texttransformnone        a-textshadownone 
-                     a-lineheight110pct     a-letterspacing0px
-                     a-fontsize50px ">Dr. Tina Vani</h1>
-          <h2 class="subtitle reveal-element
-                      secondary-font 
-                                          a-fontsize21px            a-textaligncenter 
-                     a-color3    a-texttransformnone 
-                     a-textshadownone   a-lineheight110pct 
-                     a-letterspacing0px ">Endodontist located in Petaluma, CA</h2>
-                          <div class="cta-buttons a-textaligncenter">
-            <div class="cta-buttons-aligner">
-                                                <a href="tel:7077899399" class="reveal-element hero-cta cta-call-us 
-                                                         a-margin4px
-                             a-fontsize12px
-                             a-width164px
-                             a-height46px
-                             a-borderradius3px
-                             a-backgroundcolor0
-                             a-color3
-                             a-bordercolor0
-                             a-texttransformuppercase">
-                    <span class="mm-phone-number">707-789-9399</span>
-                  </a>
-                                                                      </div>
-          </div>
-              </div>
-    </div>
-  </div>
-</li>
-          <li class="clearfix carousel-item slide slide-1 carousel-item-4 a-backgroundcolor3
-  a-minheight86vh
-  focal-point-CC" data-src="https://sa1s3optim.patientpop.com/assets/production/practices/84fa408c5911769ffdcb3bdfe42f4676eab06c44/images/1775513.png">
-
-  <div class="margin-wrapper a-bordertopwidth0px a-borderbottomwidth0px">
-
-    <div class="hero-cloak reveal-element       a-borderradius0px 
-                a-backgroundcolor2    a-opacity03 
-                a-left0pct     a-width100pct">
-    </div>
-
-    <div class="hero-content reveal-element
-                a-minheight86vh
-                a-marginleft0pct             a-width100pct
-                a-paddingtop5pct     a-paddingright5pct
-                a-paddingbottom20pct  a-paddingleft5pct">
-
-      <div class="hero-content-inner  a-textaligncenter ">
-
-                  <div class="logo-container reveal-element">
-            <a href="https://www.sonomaendo.com/" class="logo a-bordercolor4    a-backgroundcolor4 
-                      a-opacity1              a-borderwidth1px   
-                      a-borderradius10pct ">
-                              <img class="a-height200px a-margin10px" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/1798702.png">
-                          </a>
-          </div>
-        
-                              <h3 class="subtitle reveal-element
-                        primary-font 
-                                              a-textaligncenter 
-                       a-color3 ">Sonoma Endodontics</h3>
-                    <h1 class="title reveal-element
-                      primary-font 
-                                          a-textaligncenter  a-color3 
-                     a-texttransformnone        a-textshadownone 
-                     a-lineheight110pct     a-letterspacing0px
-                     a-fontsize50px ">Dr. Tina Vani</h1>
-          <h2 class="subtitle reveal-element
-                      secondary-font 
-                                          a-fontsize21px            a-textaligncenter 
-                     a-color3    a-texttransformnone 
-                     a-textshadownone   a-lineheight110pct 
-                     a-letterspacing0px ">Endodontist located in Petaluma, CA</h2>
-                          <div class="cta-buttons a-textaligncenter">
-            <div class="cta-buttons-aligner">
-                                                <a href="tel:7077899399" class="reveal-element hero-cta cta-call-us 
-                                                         a-margin4px
-                             a-fontsize12px
-                             a-width164px
-                             a-height46px
-                             a-borderradius3px
-                             a-backgroundcolor0
-                             a-color3
-                             a-bordercolor0
-                             a-texttransformuppercase">
-                    <span class="mm-phone-number">707-789-9399</span>
-                  </a>
-                                                                      </div>
-          </div>
-              </div>
-    </div>
-  </div>
-</li>
-    
-  </ul>
-
-  
-    <ol class="carousel-nav a-opacity1" data-default-color-class="backgroundcolor4" data-active-color-class="backgroundcolor1">
-      
-        <li class="bullet 
-                 
-                  a-backgroundcolor1
-                                 a-marginright3px
-                 a-borderwidth2px
-                 a-bordercolor1
-                 a-borderradius50pct
-                 a-width16px
-                 a-height16px
-                "></li>
-
-      
-        <li class="bullet 
-                 
-                  a-backgroundcolor4
-                                 a-marginright3px
-                 a-borderwidth2px
-                 a-bordercolor1
-                 a-borderradius50pct
-                 a-width16px
-                 a-height16px
-                "></li>
-
-      
-        <li class="bullet 
-                 
-                  a-backgroundcolor4
-                                 a-marginright3px
-                 a-borderwidth2px
-                 a-bordercolor1
-                 a-borderradius50pct
-                 a-width16px
-                 a-height16px
-                "></li>
-
-      
-        <li class="bullet 
-                 
-                  a-backgroundcolor4
-                                 a-marginright3px
-                 a-borderwidth2px
-                 a-bordercolor1
-                 a-borderradius50pct
-                 a-width16px
-                 a-height16px
-                "></li>
-
-      
-        <li class="bullet 
-                 
-                  a-backgroundcolor4
-                                 a-marginright3px
-                 a-borderwidth2px
-                 a-bordercolor1
-                 a-borderradius50pct
-                 a-width16px
-                 a-height16px
-                "></li>
-
-          </ol>
-    
-  
 </section>
-      <section class="meet pinstripe">
-  <div class="row type-short">
-    <div class="span6 right split-text">
-      <div class="inner">
-              <h4>&nbsp;</h4>
-              <div class="type-wrapper">
-          <div class="type-overflow">
-            <p class="primary-font" style="font-size: 22px; letter-spacing: 2px; text-align: left; color: #48bec4; margin-top: -10px;" data-mce-style="font-size: 22px; letter-spacing: 2px; text-align: left; color: #48bec4; margin-top: -10px;">About Dr. Vani</p><p style="font-weight: 400; text-align: justify;" data-mce-style="font-weight: 400; text-align: justify;">Dr. Vani has 10 years of experience performing root canal therapy.&nbsp;After graduating from Columbia University College of Dental Medicine where she earned her DDS degree in 2008, Dr. Tina Vani completed a three-year specialty fellowship in Endodontics at Harvard School of Dental Medicine graduating with a Master in Medical Sciences (MMSc.)&nbsp;&nbsp;She attended Barnard College at Columbia University for her undergraduate education where she earned a Bachelor of Arts degree in Philosophy.</p><p style="text-align: justify;" data-mce-style="text-align: justify;">Dr. Vani has taught endodontics at both Harvard and Columbia universities.&nbsp;While in dental school, she was President of the Jarvie Research Society, Editor-in-Chief of the Journal of the William Jarvie Society, and editor for the Columbia Dental Review. She was awarded the Pierre Fauchard Academy Award and volunteered with a dental outreach in Jamaica. Dr. Vani is a member of the American Association of Endodontists, American Dental Association, California Dental Association, and the Redwood Empire Dental &nbsp; Society.&nbsp;</p><p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;<br></p><p style="text-align: justify;" data-mce-style="text-align: justify;">Dr. Vani has previously practiced in Boston and New York City.&nbsp;She enjoys playing the violin and guitar, dance, kayaking, tennis and exploring the Bay Area with her husband and daughter.</p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br></p>
-          </div>
-        </div>
-        <div about="0" typeof="{&quot;type&quot;:&quot;MODULE&quot;, &quot;secondary_type&quot;: &quot;MEET&quot;, &quot;type_id&quot;: 15152, &quot;fieldname&quot;: &quot;read-more-link&quot;}">
-          <a href="javascript:void(0);" class="read-more-link primary-fg primary-border" property="fieldtext">Read more</a>
+                  <section class="service-header">
+    <div class="row">
+      <div id="social-crumb">
+        <div class="breadcrumb">
+                                    <a href="https://www.sonomaendo.com/">Sonoma Endodontics</a> <i class="fa fa-angle-right"></i>
+                        <a href="https://www.sonomaendo.com/">Tina Vani, DDS, MMSC</a> <i class="fa fa-angle-right"></i>
+                    <a href="https://www.sonomaendo.com/services">Our Services</a>
         </div>
       </div>
     </div>
-    <div class="span6 left split-media">
-      <div class="meet-frame">
-              <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1884563.jpg" width="460" height="356" alt="Sonoma Endodontics">
-            </div>
-
-  
-    </div>
-  </div>
-  <div class="row type-full">
-    <p class="primary-font" style="font-size: 22px; letter-spacing: 2px; text-align: left; color: #48bec4; margin-top: -10px;" data-mce-style="font-size: 22px; letter-spacing: 2px; text-align: left; color: #48bec4; margin-top: -10px;">About Dr. Vani</p><p style="font-weight: 400; text-align: justify;" data-mce-style="font-weight: 400; text-align: justify;">Dr. Vani has 10 years of experience performing root canal therapy.&nbsp;After graduating from Columbia University College of Dental Medicine where she earned her DDS degree in 2008, Dr. Tina Vani completed a three-year specialty fellowship in Endodontics at Harvard School of Dental Medicine graduating with a Master in Medical Sciences (MMSc.)&nbsp;&nbsp;She attended Barnard College at Columbia University for her undergraduate education where she earned a Bachelor of Arts degree in Philosophy.</p><p style="text-align: justify;" data-mce-style="text-align: justify;">Dr. Vani has taught endodontics at both Harvard and Columbia universities.&nbsp;While in dental school, she was President of the Jarvie Research Society, Editor-in-Chief of the Journal of the William Jarvie Society, and editor for the Columbia Dental Review. She was awarded the Pierre Fauchard Academy Award and volunteered with a dental outreach in Jamaica. Dr. Vani is a member of the American Association of Endodontists, American Dental Association, California Dental Association, and the Redwood Empire Dental &nbsp; Society.&nbsp;</p><p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;<br></p><p style="text-align: justify;" data-mce-style="text-align: justify;">Dr. Vani has previously practiced in Boston and New York City.&nbsp;She enjoys playing the violin and guitar, dance, kayaking, tennis and exploring the Bay Area with her husband and daughter.</p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br></p>
-    <br>
-    <div about="0" typeof="{&quot;type&quot;:&quot;MODULE&quot;, &quot;secondary_type&quot;: &quot;MEET&quot;, &quot;type_id&quot;: 15152, &quot;fieldname&quot;: &quot;read-less-link&quot;}">
-      <a href="javascript:void(0);" class="read-less-link" property="fieldtext">Read less</a>
-    </div>
-  </div>
-
-</section>
-      <section id="promo-41710" class="promo pinstripe cbct-3d">
-  <div class="row type-short">
-                                                                                    <div class="span6 left split-text">
-          <div class="inner">
-                      <h4><style>.CBCT-3D .type-full-content {column-count:1 !important; -webkit-column-count:1 !important; -moz-column-count:1 !important;}</style></h4>
-                      <div class="type-wrapper">
-              <div class="type-overflow">
-                <h2 style="text-align: center;" data-mce-style="text-align: center;"><br data-mce-bogus="1"></h2><h2 style="text-align: center;" data-mce-style="text-align: center;">Dr. Vani offers in-house CBCT 3D imaging for further analysis of fractured teeth and bone loss around teeth!</h2>
-              </div>
-            </div>
-            <div about="0" typeof="{&quot;type&quot;:&quot;MODULE&quot;, &quot;secondary_type&quot;: &quot;PROMO&quot;, &quot;type_id&quot;: 41710, &quot;fieldname&quot;: &quot;read-more-link&quot;}">
-              <a href="javascript:void(0);" class="read-more-link primary-fg primary-border" property="fieldtext">Read more</a>
-            </div>
-            <div about="0" typeof="{&quot;type&quot;:&quot;MODULE&quot;, &quot;secondary_type&quot;: &quot;PROMO&quot;, &quot;type_id&quot;: 41710, &quot;fieldname&quot;: &quot;read-less-link&quot;}">
-              <a href="javascript:void(0);" class="read-less-link primary-fg primary-border" style="display:none;" property="fieldtext">Read less</a>
-            </div>
-          </div>
-        </div>
-
-      
-                      <div class="span6 right split-media">
-            <div class="slider-frame promo-slider" data-delay="0">
-              <ul>
-                                                          <li class="slide">
-                                    <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1955322.jpg" width="450" height="348" alt="">
-                                  </li>
-                                                        </ul>
-                                        </div>
-          </div>
-            </div>
-</section>
-      <section id="promo-41715" class="promo multi pinstripe office-space">
-  <div class="row">
-    <div class="span12">
-              <h5>office space</h5>
-      
-              <div class="slider-frame promo-slider" data-delay="0">
-                  <ul>
-                    <li class="slide">
-              <div class="left">
-                                                              <div class="promo-details">
-                    <p style="text-align: center;" data-mce-style="text-align: center;"><img src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/85596.jpg" width="270" height="338" data-mce-src="https://sa1s3optim.patientpop.com/assets/docs/85596.jpg" data-mce-selected="1"><br data-mce-bogus="1"></p><div id="mceResizeHandlenw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" style="cursor: nw-resize; margin: 0px; padding: 0px; left: 125px; top: 6.5px;"></div><div id="mceResizeHandlene" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" style="cursor: ne-resize; margin: 0px; padding: 0px; left: 575px; top: 6.5px;"></div><div id="mceResizeHandlese" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" style="cursor: se-resize; margin: 0px; padding: 0px; left: 575px; top: 569.5px;"></div><div id="mceResizeHandlesw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" style="cursor: sw-resize; margin: 0px; padding: 0px; left: 125px; top: 569.5px;"></div>
-                  </div>
-                        </div>
-              <div class="right">
-                              <div class="promo-details">
-                                                    <p style="text-align: center;" data-mce-style="text-align: center;"><img src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/85597.jpg" alt="" width="450" height="338"><br data-mce-bogus="1"></p>
-                                </div>
-              </div>
-            </li>
-
-                    <li class="slide">
-              <div class="left">
-                                                              <div class="promo-details">
-                    <p style="text-align: center;" data-mce-style="text-align: center;"><img src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/85598.jpg" alt="" width="215" height="338"><br data-mce-bogus="1"></p>
-                  </div>
-                        </div>
-              <div class="right">
-                              <div class="promo-details">
-                                                    <p style="text-align: center;" data-mce-style="text-align: center;"><img src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/85599.jpg" alt="" width="452" height="338"><br data-mce-bogus="1"></p>
-                                </div>
-              </div>
-            </li>
-
-                  </ul>
-                          <ol>
-                      <li class="bullet"><input type="button" value=""></li>
-                      <li class="bullet"><input type="button" value=""></li>
-                    </ol>
-        
-        </div>
-          </div>
-  </div>
-</section>
-      <section class="services pinstripe">
+  </section>
+                <section class="services pinstripe">
     <div class="row">
       <div class="span12">
               <h5> What we offer </h5>
@@ -10114,7 +10457,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
                                                                                                                                                                                                                                                                               <div class="service-block  with-thumbs ">
           <ul class="grid8">
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1882217.jpg" alt="Root Canal"></div>
+                          <div class="service-bg"><img src="./services_files/1882217.jpg" class="" alt="Root Canal"></div>
                         <a href="https://www.sonomaendo.com/services/root-canal">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10124,7 +10467,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1768286.jpg" alt="Endodontic Retreatment"></div>
+                          <div class="service-bg"><img src="./services_files/1768286.jpg" class="" alt="Endodontic Retreatment"></div>
                         <a href="https://www.sonomaendo.com/services/endodontic-retreatment">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10134,7 +10477,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1882218.jpg" alt="Swelling &amp; Infection"></div>
+                          <div class="service-bg"><img src="./services_files/1882218.jpg" class="" alt="Swelling &amp; Infection"></div>
                         <a href="https://www.sonomaendo.com/services/swelling-infection">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10144,7 +10487,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1768291.jpg" alt="Abscessed Teeth"></div>
+                          <div class="service-bg"><img src="./services_files/1768291.jpg" class="" alt="Abscessed Teeth"></div>
                         <a href="https://www.sonomaendo.com/services/abscessed-teeth">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10154,7 +10497,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1768289.jpg" alt="CBCT Scan"></div>
+                          <div class="service-bg"><img src="./services_files/1768289.jpg" class="" alt="CBCT Scan"></div>
                         <a href="https://www.sonomaendo.com/services/cbct-scan">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10164,7 +10507,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1768290.jpg" alt="Internal Bleaching"></div>
+                          <div class="service-bg"><img src="./services_files/1768290.jpg" class="" alt="Internal Bleaching"></div>
                         <a href="https://www.sonomaendo.com/services/internal-bleaching">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10174,7 +10517,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1768287.jpg" alt="Endodontics"></div>
+                          <div class="service-bg"><img src="./services_files/1768287.jpg" class="" alt="Endodontics"></div>
                         <a href="https://www.sonomaendo.com/services/endodontics">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10184,7 +10527,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
            </a>
           </li>
                     <li class="service">
-                          <div class="service-bg"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/1882221.jpg" alt="Toothache"></div>
+                          <div class="service-bg"><img src="./services_files/1882221.jpg" class="" alt="Toothache"></div>
                         <a href="https://www.sonomaendo.com/services/toothache">
               <div class="service-border primary-border"></div>
               <div class="service-info">
@@ -10199,19 +10542,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
       </div>
     </div>
   </section>
-      <section id="promo-27010" class="promo pinstripe locations">
-  <div class="row type-short">
-                                        <div class="span12">
-                  <div class="inner">
-          <h4><style>.locations .type-full-content {column-count:1 !important; -webkit-column-count:1 !important; -moz-column-count:1 !important;}</style></h4>
-          <div class="type-full-content">
-              <p class="primary-font" style="text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #000; font-size: 18px;" data-mce-style="text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #000; font-size: 18px;">Proudly Serving Patients in:</p><p class="primary-font" style="text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #000; font-size: 18px;" data-mce-style="text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #000; font-size: 18px;">Petaluma CA&nbsp;&nbsp;•&nbsp;&nbsp;RoHNert Park CA&nbsp;&nbsp;•Santa Rosa CA&nbsp;&nbsp;•&nbsp;&nbsp;Sonoma CA&nbsp;&nbsp;•&nbsp;&nbsp;<br>&nbsp;&nbsp;Windsor CA&nbsp;&nbsp;•&nbsp;&nbsp;Healdsburg CA&nbsp;&nbsp;•&nbsp;&nbsp;Sebastopol CA &nbsp;&nbsp;•&nbsp;&nbsp;Novato CA&nbsp;&nbsp;•&nbsp;&nbsp;<br>Sonoma County&nbsp;&nbsp;•&nbsp;&nbsp;Marin County</p>
-          </div>
-        </div>
-                </div>
-      </div>
-</section>
-      <section class="contact pinstripe no_form">
+                <section class="contact pinstripe no_form" style="background-color: rgb(245, 249, 249);">
     <div class="row">
     <div class="span4 left">
       <div about="0" typeof="{&quot;type&quot;:&quot;MODULE&quot;, &quot;secondary_type&quot;: &quot;CONTACT&quot;, &quot;type_id&quot;: 15442, &quot;fieldname&quot;: &quot;location&quot;}">
@@ -10283,11 +10614,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
               </p>
     </div>
   </div>
-  </section>      <section class="map color">
-      <iframe src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/saved_resource.html" class="location-frame" data-place-id="ChIJh8zzr963hYARRoBT5mblmxg" data-practice-name="Tina+Vani%2C+DDS%2C+MMSC" data-latitude="38.2233672" data-longitude="-122.6471703" data-address="30+W+El+Rose+Dr.%2C+Petaluma%2C+CA+94952" border="0" allowfullscreen=""></iframe>
-  </section>
-
-      <footer>
+  </section>                <footer>
   <div class="row">
     <div class="span12">
       <ul>
@@ -10341,68 +10668,16 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
           <div class="span12 powered-by"><p><span class="nofollow" data-element="3c696d67207372633d222f6173736574732f7062704032782e706e672220616c743d22506f7765726564206279223e"></span></p></div>
       </div>
 </footer>
-            <script type="application/ld+json">
+                                <script type="application/ld+json">
     {"@context":"http:\/\/schema.org","@type":"Dentist","@id":"http:\/\/www.sonomaendo.com\/84fa408c5911769ffdcb3bdfe42f4676eab06c44","url":"http:\/\/www.sonomaendo.com","brand":{"name":["Sonoma Endodontics"]},"name":["Tina Vani, DDS, MMSC"],"image":"","sameAs":[],"potentialAction":{"@type":"ReserveAction","target":{"@type":"EntryPoint","urlTemplate":"http:\/\/www.sonomaendo.com\/schedule?utm_medium=markup","inLanguage":"en-US","actionPlatform":["http:\/\/schema.org\/DesktopWebPlatform","http:\/\/schema.org\/IOSPlatform","http:\/\/schema.org\/AndroidPlatform"]},"result":{"@type":"Reservation","name":"Book Online"}},"openingHours":["MON 09:00:00-17:00:00","TUE 09:00:00-17:00:00","WED 09:00:00-17:00:00","THU 09:00:00-17:00:00","FRI 09:00:00-13:00:00"],"contactPoint":[{"@type":"ContactPoint","telephone":"+1 707-789-9399","contactType":"customer service"}],"address":{"@type":"PostalAddress","streetAddress":"30 W El Rose Dr. ","addressLocality":"Petaluma","addressRegion":"CA","postalCode":"94952","addressCountry":"USA"}}
 </script>
-  
-  <div class="modal" id="patient-email-optout" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="patientEmailOptout">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h4 class="modal-title" id="optout-label">Email Opt-out</h4>
-      </div>
-      <div class="modal-body">
-        <iframe src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/saved_resource(1).html" data-src="https://widgets.patientpop.com/unsubscribe?email=&amp;optout=&amp;optouttype=&amp;practice=" id="optout-frame"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="modal" id="patient-confirmation" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="patientConfirmation">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="confirmation-label">Appointment Confirmed</h4>
-            </div>
-            <div class="modal-body">
-                                <div class="confirmation-details">
-                    Sorry, an error occurred.
-                </div>
-                            </div>
-            <div class="modal-footer">
-                <button class="btn-cancel" type="button" data-dismiss="modal">close</button>
-            </div>
-        </div>
-    </div>
-</div>
-  <div class="modal fade" id="sign-in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h5>Sign In</h5>
-        <div class="inner-form">
-          <form method="POST" action="https://www.sonomaendo.com/login" accept-charset="UTF-8" id="sign-in-form" role="form"><input name="_token" type="hidden" value="DaNZfku6A0PgfPi7mwfjIg5tGymVFHdTlJnm56lA">
-
-                    <label for="Email Address" class=" control-label">Email Address</label>
-          <input placeholder="Email Address" class="form-control txt-input" required="1" name="email" type="email">
-
-          <label for="Password" class=" control-label">Password</label>
-          <input placeholder="Password" class="form-control txt-input" required="1" name="password" type="password" value="">
-
-          <button id="sign-in-submit" type="submit">Sign in</button><br>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+      
+  <div id="content-placeholder"></div>
 
     <div class="yt-player">
       <div class="inner">
         <button type="button" class="close-yt-player">×</button>
-        <iframe width="680" height="377" src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/saved_resource(2).html" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+        <iframe width="680" height="377" src="./services_files/saved_resource.html" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
       </div>
     </div>
 
@@ -10410,7 +10685,7 @@ font-family: 'Raleway Extra Bold', sans-serif !important;
       var recaptcha_public_key = '6LddTCATAAAAAM-a7vQeVo-dsj-65gNlSKmin7F3';
     </script>
 
-     <script src="./Tina Vani, DDS, MMSC_ Endodontist Petaluma, CA_ Sonoma Endodontics_files/8e885b14a5a7b29b2be5215ebc1bb5d4fac69456" defer="1" async="1"></script>
+     <script src="./services_files/8e885b14a5a7b29b2be5215ebc1bb5d4fac69456(1)" defer="1" async="1"></script>
 
      
     <script>
@@ -10827,15 +11102,16 @@ $(function(){
 
 });
 
-        pop.csrf = 'DaNZfku6A0PgfPi7mwfjIg5tGymVFHdTlJnm56lA';
-                  pop.emailOptout.types = {"feedback_request":"feedback_request","appt_reminders":"appt_reminders","reputation_campaign":"reputation_campaign"};
-  pop.emailOptout.turnOn();
-  pop.confirmAppointment.turnOn();
+        pop.csrf = '2fYiwHFr5nZv4KVvgcwIE8iWNMkbgcaOBTaJnSwi';
+                (function(d){
+var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+p.type = 'text/javascript';
+p.async = true;
+p.src = '//assets.pinterest.com/js/pinit.js';
+f.parentNode.insertBefore(p, f);
+}(document));
 
-  
-  
-
-        pop.googleMapsApiKey = "";
+        pop.googleMapsApiKey = "AIzaSyCMSuT-V9boS9uOTxi5a45rO0Mz_spWENA";
 
         
         
@@ -10877,6 +11153,317 @@ $(function(){
         console.log(difference);
       });
     </script>
-   <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e5dea1d6f9","applicationID":"271465373","transactionName":"NFdUYBZYWkUDVhVeWw0dd1cQUFtYTUUTVlcXW1VRO1FbWwdFAFBR","queueTime":0,"applicationTime":335,"atts":"GBBXFl5CSUs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+   <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e5dea1d6f9","applicationID":"271465373","transactionName":"NFdUYBZYWkUDVhVeWw0dd1cQUFtYTUYERUIKUVNHO0lVUQc=","queueTime":0,"applicationTime":173,"atts":"GBBXFl5CSUs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
  
-</body></html>
+<div id="pp_booking">
+  <div class="modal hide" id="book-online" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="bookAppointmentLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="bookAppointmentLabel">Calendar</h4>
+        </div>
+
+        <div class="modal-body loading">
+          <i class="fa fa-cog fa-spin"></i> Loading calendar. Please wait.
+        </div>
+
+        <div class="modal-body selectdoc provider-blocks" style="display:none;"></div>
+        <div id="calDocTemplate" style="display:none;">
+          <div class="provider-block doc-modal">
+            <div class="provider-pic" data-env="">
+              <img src="./services_files/photo.jpg" width="180" height="180" alt="" class="doc-photo">
+            </div>
+            <div class="provider-info">
+              <div class="provider-details">
+                <h6></h6>
+                <label class="spec"></label>
+              </div>
+            </div>
+            <div class="doc-select-hover" data-docid=""></div>
+            <a href="https://www.sonomaendo.com/services#" class="doc-select link primary-bg" data-docid="">select</a>
+          </div>
+        </div>
+
+        <div class="modal-body selectloc location-blocks" style="display:none;"></div>
+        <div id="calLocTemplate" style="display:none;">
+
+          <div class="location-block loc-modal" data-locid="LOCID">
+            <div class="location-name">LOCNAME</div>
+            <div class="location-address">LOCADDRESS</div>
+            <div class="location-map" id="location-LOCID" data-latitude="LOCLATITUDE" data-longitude="LOCLONGITUDE" data-address="LOCADDRESS" data-mapsize="bookonline">
+              <iframe src="./services_files/saved_resource(1).html" class="location-frame" data-place-id="" data-practice-name="" data-latitude="" data-longitude="" data-address="LOCADDRESS" border="0" allowfullscreen=""></iframe>
+            </div>
+            <div class="call-to-actions primary-border">
+              <button class="btn-book-online ppop_bookonline_action primary-bg primary-border">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="caldetails" style="display:none;">
+          <form method="POST" action="https://legacy.patientpop.com/widgets/bookonline/template/8e885b14a5a7b29b2be5215ebc1bb5d4fac69456" accept-charset="UTF-8" id="patient-form" data-toggle="validator" role="form"><input name="_token" type="hidden" value="iV0zzzmVS9AstheKdEeUQOdAnqRkBR3RkhVHJZwu">
+          <div class="modal-body">
+            <input name="calendar_id" type="hidden" value="">
+            <input id="block-id" name="calendar_block_id" type="hidden" value="">
+            <input name="doctor_id" type="hidden" value="">
+            <input name="location_id" type="hidden" value="">
+
+            <div class="left">
+              <div id="newpatient-section-1">
+                <div class="label" id="newpatient-label">New Patient?</div>
+                <ul>
+                  <li><input id="new-patient-yes" name="newpatient" type="radio" value="yes">
+                    <label for="new-patient-yes">Yes</label></li>
+                  <li><input id="new-patient-no" name="newpatient" type="radio" value="no">
+                    <label for="new-patient-no">No</label></li>
+                </ul>
+              </div>
+
+              <div id="reason-section-1">
+                <div class="label reason-label">Reason</div>
+                <input class="txt-input" placeholder="e.g. annual checkup, follow-up, ..." maxlength="150" name="reason" type="text" value="">
+                <select class="txt-input" name="reason"></select>
+              </div>
+
+              <div id="name-section-1">
+                <div class="label" id="name-label">Name</div>
+                <input class="txt-input inline-input" placeholder="First" name="firstname" type="text" value="">
+                <input class="txt-input inline-input" placeholder="Last" name="lastname" type="text" value="">
+              </div>
+
+              <div id="email-section-1">
+                <div class="label" id="email-label">Email address</div>
+                <input class="txt-input" name="email" type="email" value="">
+              </div>
+
+              <div id="phone-section-1">
+                <div class="label" id="phone-label">Mobile Phone Number</div>
+                <input class="txt-input" id="appointment-phone" name="phone" type="tel" value="">
+              </div>
+
+              <div id="date_of_birth-section-1">
+                <div class="label" id="date_of_birth-label">Date of Birth</div>
+                <input class="txt-input" placeholder="mm/dd/yyyy" maxlength="10" name="date_of_birth" type="text" value="">
+              </div>
+
+              <div id="age_verification-section-1" class="age-verify">
+                <div class="label" id="age_verification-label">Are you the patient?</div>
+                <ul>
+                  <li><input id="age_verification-yes" name="age_verification" type="radio" value="yes">
+                    <label for="age_verification-yes">Yes</label></li>
+                  <li><input id="age_verification-no" name="age_verification" type="radio" value="no">
+                    <label for="age_verification-no">No</label></li>
+                </ul>
+              </div>
+
+              <div id="sex-section-1">
+                <div class="label" id="sex-label">Gender</div>
+                <select class="txt-input" name="sex"><option value="" selected="selected">- Select One -</option><option value="undisclosed">Do not wish to disclose</option><option value="male">Male</option><option value="female">Female</option><option value="other">Other</option></select>
+              </div>
+
+              <div id="insurance_provider_id-section-1">
+                <div class="label add-insurance-dropdown" id="insurance_provider_id-label">Insurance</div>
+                <select class="txt-input add-info-insurance-select-dropdown" name="insurance_provider_id" style="display: none;"></select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 250px;" title=""><a class="chosen-single chosen-default" tabindex="-1"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+              </div>
+
+              <div id="insurance_id_number-section-1">
+                <div class="label hide insurance-selected" id="insurance_id_number-label">Insurance ID #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-id-number" name="insurance_id_number" type="text" value="">
+              </div>
+
+              <div id="insurance_group_number-section-1">
+                <div class="label hide insurance-selected" id="insurance_group_number-label">Insurance Group #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-group-number" name="insurance_group_number" type="text" value="">
+              </div>
+
+              <div id="insurance_phone-section-1">
+                <div class="label hide insurance-selected" id="insurance_phone-label">Insurance Phone #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-phone-number" name="insurance_phone" type="text" value="">
+              </div>
+            </div>
+
+            <div class="right">
+              <div id="calendar-block">
+                <button class="schedule-prev secondary-fg" type="button"><i class="fa fa-chevron-circle-left fa-2x"></i></button>
+                <div id="grid-block"></div>
+                <button class="schedule-next secondary-fg" type="button"><i class="fa fa-chevron-circle-right fa-2x"></i></button>
+              </div>
+              <div id="calendar-block-select-newpatient">
+                <i class="fa fa-arrow-left"></i> Please select whether you are a new or existing patient.
+              </div>
+              <div id="calendar-block-select-reason">
+                <i class="fa fa-arrow-left"></i> Please select an appointment reason.
+              </div>
+              <div id="calendar-block-loading">
+                <i class="fa fa-cog fa-spin"></i> Loading calendar ...
+              </div>
+              <div id="calendar-select">
+                <div class="label">Date - Time</div>
+                <select id="calendar-time" class="form-control"></select>
+              </div>
+              <div id="terms_confirm">
+                <input type="checkbox">
+                I have read and agreed to the <a href="https://www.sonomaendo.com/your-privacy" target="_blank">Privacy Policy</a> and <a href="https://www.sonomaendo.com/our-terms" target="_blank">Terms of Use</a>
+              </div>
+            </div>
+
+            <div class="clear-both"></div>
+            <div class="book-online-message"></div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn-cancel" type="button" data-dismiss="modal">Cancel</button>
+            <button class="btn-book-now primary-bg primary-border" type="button">Book Now</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal hide" id="booked-additional-info" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="bookAppointmentLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="bookedAppointmentLabel">Appointment Requested</h4>
+        </div>
+
+        <div class="additional-questions">
+          <form method="POST" action="https://legacy.patientpop.com/widgets/appointment/update" accept-charset="UTF-8" id="patient-additional-info-form" data-toggle="validator" role="form"><input name="_token" type="hidden" value="iV0zzzmVS9AstheKdEeUQOdAnqRkBR3RkhVHJZwu">
+          <div class="modal-body">
+            <p class="type-wrapper" id="bookedAppointmentMessage">Thank you for your appointment request. We will contact you shortly to confirm your request.<br>Please call our office <span class="apt-conf-phone">at </span> if you have any questions.</p>
+            <span class="apt-conf-formlinks apt-conf-formlinks1"></span>
+            <h4 id="additionalInfoHeading">Additional Information</h4>
+            <input name="id" type="hidden" value="">
+
+            <div class="left">
+              <div id="name-section-2">
+                <div class="label" id="name-label">Name</div>
+                <input class="txt-input inline-input" placeholder="First" name="firstname" type="text" value="">
+                <input class="txt-input inline-input" placeholder="Last" name="lastname" type="text" value="">
+              </div>
+
+              <div id="email-section-2">
+                <div class="label" id="email-label">Email address</div>
+                <input class="txt-input" name="email" type="email" value="">
+              </div>
+
+              <div id="phone-section-2">
+                <div class="label" id="phone-label">Mobile Phone Number</div>
+                <input class="txt-input" id="appointment-phone" name="phone" type="tel" value="">
+              </div>
+
+              <div id="reason-section-2">
+                <div class="label reason-label">Reason</div>
+                <input class="txt-input" placeholder="e.g. annual checkup, follow-up, ..." maxlength="150" name="reason" type="text" value="">
+                <select class="txt-input" name="reason"></select>
+              </div>
+
+              <div id="date_of_birth-section-2">
+                <div class="label" id="date_of_birth-label">Date of Birth</div>
+                <input class="txt-input" placeholder="mm/dd/yyyy" maxlength="10" name="date_of_birth" type="text" value="">
+              </div>
+
+              <div id="sex-section-2">
+                <div class="label" id="sex-label">Gender</div>
+                <select class="txt-input" name="sex"><option value="" selected="selected">- Select One -</option><option value="undisclosed">Do not wish to disclose</option><option value="male">Male</option><option value="female">Female</option><option value="other">Other</option></select>
+              </div>
+
+              <div id="insurance_provider_id-section-2">
+                <div class="label add-insurance-dropdown" id="insurance_provider_id-label">Insurance</div>
+                <select class="txt-input add-info-insurance-select-dropdown" name="insurance_provider_id" style="display: none;"></select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 250px;" title=""><a class="chosen-single chosen-default" tabindex="-1"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+              </div>
+
+              <div id="insurance_id_number-section-2">
+                <div class="label hide insurance-selected" id="insurance_id_number-label">Insurance ID #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-id-number" name="insurance_id_number" type="text" value="">
+              </div>
+
+              <div id="insurance_group_number-section-2">
+                <div class="label hide insurance-selected" id="insurance_group_number-label">Insurance Group #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-group-number" name="insurance_group_number" type="text" value="">
+              </div>
+
+              <div id="insurance_phone-section-2">
+                <div class="label hide insurance-selected" id="insurance_phone-label">Insurance Phone #</div>
+                <input class="txt-input hide insurance-selected" id="appointment-insurance-phone-number" name="insurance_phone" type="text" value="">
+              </div>
+
+            </div>
+
+            <div class="right">
+              <div id="comment-section-2">
+                <div class="label" id="comment-label">Comment</div>
+                <textarea class="txtarea-input" placeholder="Is there anything you would like us to know before your appointment?" maxlength="250" rows="4" name="comment" cols="50"></textarea>
+              </div>
+            </div>
+
+            <div class="clear-both"></div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn-skip" type="button" data-dismiss="modal">Skip</button>
+            <button class="btn-book-additional-submit primary-bg primary-border" type="button">Submit</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="booked-online" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="appointmentRequestLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="appointmentRequestLabel">Thank You</h4>
+        </div>
+
+        <div class="modal-body">
+          <p class="type-wrapper">Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office <span class="apt-conf-phone">at </span> if you have any questions.</p>
+          <span class="apt-conf-formlinks apt-conf-formlinks2"></span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="booking-screened" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="appointmentRequestLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="appointmentRequestLabel">Please call our office</h4>
+        </div>
+
+        <div class="modal-body">
+          <p>We unfortunately can't schedule this type of appointment online. Please call our office <span class="apt-conf-phone">at </span> to make your appointment.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="booking-error" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="errorLabel">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="errorLabel"></h4>
+        </div>
+
+        <div class="modal-body">
+          <p></p>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn-cancel" type="button" data-dismiss="modal">Cancel</button>
+          <button type="button" id="reload-book-online" class="btn-reload-book-online ppop_bookonline_action primary-bg primary-border" style="display: none;">Book Online</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="PIN_1562558921765.f.callback[0]" type="text/javascript" charset="utf-8" src="./services_files/saved_resource"></script></body></html>
